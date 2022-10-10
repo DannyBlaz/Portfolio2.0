@@ -18,7 +18,8 @@ hamburger.addEventListener('click', function(){
 const resume = document.querySelectorAll('#resume')
 
 //Note use key word (function) here 
-resume.forEach((e)=>{e.addEventListener('click', function(){
+resume.forEach((element)=>{
+    element.addEventListener('click', function(){
     window.open('https://docs.google.com/document/d/16lquF6AVro1paGDsmO8yIfojx5seNtDY/edit?usp=sharing&ouid=101263549633324859001&rtpof=true&sd=true')
 })})
 
@@ -26,12 +27,14 @@ resume.forEach((e)=>{e.addEventListener('click', function(){
  * HTML Links
  */
 //Contact Me
-const linkedIn = document.querySelector('#contact-me')
+const linkedIn = document.querySelectorAll('#contact-me')
+console.log(linkedIn);
 
 //Note use key word (function) here 
-linkedIn.addEventListener('click', function(){
+linkedIn.forEach((element)=>{
+    element.addEventListener('click', function(){
     window.open('https://www.linkedin.com/in/daniel-ezekiel/')
-})
+})})
 
 /**
  * Debug
