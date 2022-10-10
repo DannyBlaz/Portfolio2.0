@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fira sans', sans-serif;
+    /* color: #8c38ff; */
 }
 
 :root{
@@ -164,7 +165,7 @@ nav{
 }
 
 .menu a.is-active{
-    background-color: #1f51ff;
+    background-color: #435680;
 }
 
 @media (min-width: 1168px){

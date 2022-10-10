@@ -41,9 +41,9 @@ linkedIn.forEach((element)=>{
  */
 // const gui = new dat.GUI()
 
-const parameters = {
-    materialColor: '#ffeded'
-}
+// const parameters = {
+//     materialColor: '#ffeded'
+// }
 
 // gui
 //     .addColor(parameters, 'materialColor')
@@ -74,7 +74,7 @@ gradientTexture.magFilter = THREE.NearestFilter
 
 //Materials
 const material = new THREE.MeshToonMaterial({
-    color: parameters.materialColor,
+    color: '#435680',
     gradientMap: gradientTexture
 })
 
@@ -124,7 +124,7 @@ particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 
 
 // Material
 const particlesMaterial = new THREE.PointsMaterial({
-    color: parameters.materialColor,
+    color: '#ffeded',
     sizeAttenuation: true,
     size: 0.03
 })
