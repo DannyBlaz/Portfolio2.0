@@ -15,12 +15,12 @@ hamburger.addEventListener('click', function(){
     mobile_menu.classList.toggle('is-active')
 })
 
-const resume = document.querySelector('#resume')
+const resume = document.querySelectorAll('#resume')
 
 //Note use key word (function) here 
-resume.addEventListener('click', function(){
+resume.forEach((e)=>{e.addEventListener('click', function(){
     window.open('https://docs.google.com/document/d/16lquF6AVro1paGDsmO8yIfojx5seNtDY/edit?usp=sharing&ouid=101263549633324859001&rtpof=true&sd=true')
-})
+})})
 
 /**
  * HTML Links
