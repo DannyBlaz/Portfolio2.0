@@ -22,7 +22,16 @@ body
     overflow: hidden;
 } */
 
-
+/* scroll */
+/* .scroll-container{
+    height: 100hv;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.section{
+    height: 100hv;
+    scroll-snap-align: start;
+ } */
 
 .webgl
 {
