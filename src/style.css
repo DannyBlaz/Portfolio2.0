@@ -22,6 +22,8 @@ body
     overflow: hidden;
 } */
 
+
+
 .webgl
 {
     position: fixed;
@@ -168,7 +170,7 @@ nav{
     background-color: #435680;
 }
 
-@media (min-width: 1168px){
+@media (min-width: 1030px){
     .hamburger{
         display: none;
     }
@@ -192,6 +194,7 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
 }
+
 
 #contact-me div:hover{
     color: var(--primary);

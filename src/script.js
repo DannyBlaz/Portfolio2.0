@@ -28,7 +28,6 @@ resume.forEach((element)=>{
  */
 //Contact Me
 const linkedIn = document.querySelectorAll('#contact-me')
-console.log(linkedIn);
 
 //Note use key word (function) here 
 linkedIn.forEach((element)=>{
