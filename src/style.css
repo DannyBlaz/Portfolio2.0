@@ -16,23 +16,13 @@
 html{
      background: #1e1a20;
      scroll-behavior: smooth;
+     scroll-snap-type: y mandatory;
 }
 /* html,
 body
 {
     overflow: hidden;
 } */
-
-/* scroll */
-/* .scroll-container{
-    height: 100hv;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-.section{
-    height: 100hv;
-    scroll-snap-align: start;
- } */
 
 .webgl
 {
@@ -203,6 +193,7 @@ nav{
     font-size: 3vmin;
     padding-left: 10%;
     padding-right: 10%;
+    scroll-snap-align: center;
 }
 
 
