@@ -1,5 +1,4 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,8 +23,7 @@ body
     overflow: hidden;
 } */
 
-.webgl
-{
+.webgl{
     position: fixed;
     top: 10px;
     left: 0px;
@@ -179,9 +177,11 @@ nav{
     }
 }
 
+#contact-me div:hover{
+    color: var(--primary);
+}
 
-.section
-{
+.section{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,15 +193,9 @@ nav{
     font-size: 3vmin;
     padding-left: 10%;
     padding-right: 10%;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
 }
 
-
-#contact-me div:hover{
-    color: var(--primary);
+#projects ul{
+    display: flex;
 }
-
-/* section:nth-child(odd)
-{
-    justify-content: flex-end;
-} */
