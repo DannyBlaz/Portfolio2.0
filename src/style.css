@@ -15,6 +15,7 @@
 
 html{
      background: #1e1a20;
+     scroll-behavior: smooth;
 }
 /* html,
 body
