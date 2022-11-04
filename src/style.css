@@ -199,3 +199,16 @@ nav{
 #projects ul{
     display: flex;
 }
+
+#projects ul div{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 700px;
+    width: 300px;
+}
+
+img{
+    height: 300px;
+    width: 300px
+}
