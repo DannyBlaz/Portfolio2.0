@@ -17,7 +17,7 @@
 html{
      background: #1e1a20;
      scroll-behavior: smooth;
-     scroll-snap-type: y mandatory;
+     /* scroll-snap-type: y mandatory; */
 }
 
 .webgl{
@@ -198,9 +198,9 @@ nav{
     flex-direction: row;
     /* flex-wrap: wrap; */
     padding: 9rem;
-    /* overflow-x: scroll; */
+    overflow-x: scroll;
     text-transform:none;
-    
+    padding: 30px;
 }
 
 /* .card-list:first-child{
@@ -210,7 +210,7 @@ nav{
     font-size: 40px;
 } */
 
-/* .card-list::-webkit-scrollbar {
+.card-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
@@ -222,7 +222,7 @@ nav{
 
 .card-list::-webkit-scrollbar-track {
     background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
-} */
+}
 
 .card {
     height: 550px;
@@ -243,7 +243,7 @@ nav{
 
 .card img{
     height: 200px;
-    width: 200px
+    width: 300px
 }
 
 .card:focus-within~.card, .card:hover~.card {
