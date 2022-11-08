@@ -241,10 +241,10 @@ nav{
     position: relative;
 }
 
-.card img{
+/* .card img{
     height: 200px;
     width: 300px
-}
+} */
 
 .card:focus-within~.card, .card:hover~.card {
     transform: translateX(130px);
