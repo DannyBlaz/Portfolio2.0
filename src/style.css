@@ -196,7 +196,7 @@ nav{
 .card-list{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 9rem;
     overflow-x: scroll;
     text-transform:none;
