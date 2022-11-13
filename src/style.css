@@ -17,7 +17,7 @@
 html{
      background: #1e1a20;
      scroll-behavior: smooth;
-     /* scroll-snap-type: y mandatory; */
+     scroll-snap-type: y mandatory;
 }
 
 .webgl{
