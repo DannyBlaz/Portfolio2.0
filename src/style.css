@@ -190,7 +190,7 @@ nav{
     /* font-size: 3vmin; */
     padding-left: 10%;
     padding-right: 10%;
-    /* scroll-snap-align: start; */
+    scroll-snap-align: start;
 }
 
 .card-list{
