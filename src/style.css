@@ -193,6 +193,17 @@ nav{
     scroll-snap-align: start;
 }
 
+#home img{
+    width: 35%;
+    aspect-ratio: 3/3;
+    object-fit: contain;
+    filter: grayscale();
+    border-radius: 50%;
+}
+section#home{
+    flex-direction: row;
+}
+
 .card-list{
     display: flex;
     flex-direction: row;
@@ -243,7 +254,8 @@ nav{
 
 .card img{
     height: 200px;
-    width: 300px
+    width: 300px;
+    filter: grayscale();
 }
 
 .card:focus-within~.card, .card:hover~.card {
