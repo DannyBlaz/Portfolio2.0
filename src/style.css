@@ -174,10 +174,6 @@ nav{
     }
 }
 
-#contact-me div:hover{
-    color: var(--primary);
-}
-
 .section{
     display: flex;
     flex-direction: column;
@@ -255,7 +251,7 @@ section#home{
 .card img{
     height: 200px;
     width: 300px;
-    filter: grayscale();
+    /* filter: grayscale(); */
 }
 
 .card:focus-within~.card, .card:hover~.card {
@@ -390,3 +386,8 @@ section#home{
     background-clip: text;
     border-color: white;
 }
+
+/* #contact-me div:hover{
+    color: var(--primary);
+} */
+

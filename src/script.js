@@ -27,13 +27,13 @@ resume.forEach((element)=>{
  * HTML Links
  */
 //Contact Me
-const linkedIn = document.querySelectorAll('#contact-me')
+// const linkedIn = document.querySelectorAll('#contact-me')
 
-//Note use key word (function) here 
-linkedIn.forEach((element)=>{
-    element.addEventListener('click', function(){
-    window.open('https://www.linkedin.com/in/daniel-ezekiel/')
-})})
+// //Note use key word (function) here 
+// linkedIn.forEach((element)=>{
+//     element.addEventListener('click', function(){
+//     window.open('https://www.linkedin.com/in/daniel-ezekiel/')
+// })})
 
 /**
  * Debug
