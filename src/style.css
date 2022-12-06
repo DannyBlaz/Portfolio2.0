@@ -251,7 +251,7 @@ section#home{
 .card img{
     height: 200px;
     width: 300px;
-    /* filter: grayscale(); */
+    filter: grayscale();
 }
 
 .card:focus-within~.card, .card:hover~.card {
@@ -387,7 +387,8 @@ section#home{
     border-color: white;
 }
 
-/* #contact-me div:hover{
-    color: var(--primary);
-} */
+#contact-me a{
+    /* color: var(--primary); */
+    color: white;
+}
 
