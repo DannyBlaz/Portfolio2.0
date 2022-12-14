@@ -23,17 +23,7 @@ resume.forEach((element)=>{
     window.open('https://docs.google.com/document/d/16lquF6AVro1paGDsmO8yIfojx5seNtDY/edit?usp=sharing&ouid=101263549633324859001&rtpof=true&sd=true')
 })})
 
-/**
- * HTML Links
- */
-//Contact Me
-// const linkedIn = document.querySelectorAll('#contact-me')
 
-// //Note use key word (function) here 
-// linkedIn.forEach((element)=>{
-//     element.addEventListener('click', function(){
-//     window.open('https://www.linkedin.com/in/daniel-ezekiel/')
-// })})
 
 /**
  * Debug
