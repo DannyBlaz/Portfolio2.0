@@ -23,8 +23,6 @@ resume.forEach((element)=>{
     window.open('https://docs.google.com/document/d/16lquF6AVro1paGDsmO8yIfojx5seNtDY/edit?usp=sharing&ouid=101263549633324859001&rtpof=true&sd=true')
 })})
 
-
-
 /**
  * Debug
  */
