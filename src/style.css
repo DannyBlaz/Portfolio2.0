@@ -165,14 +165,6 @@ nav{
     background-color: #435680;
 }
 
-@media (min-width: 1030px){
-    .hamburger{
-        display: none;
-    }
-    .menu{
-        display: flex;
-    }
-}
 
 .section{
     display: flex;
@@ -202,7 +194,7 @@ section#home{
 
 .card-list{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* flex-wrap: wrap; */
     padding: 9rem;
     overflow-x: scroll;
@@ -210,6 +202,18 @@ section#home{
     padding: 30px;
 }
 
+@media (min-width: 1030px){
+    .hamburger{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .card-list{
+    display: flex;
+    flex-direction: row;
+    }
+}
 /* .card-list:first-child{
     display: flex;
     flex-direction: row;
