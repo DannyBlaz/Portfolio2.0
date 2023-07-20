@@ -178,7 +178,7 @@ nav{
     /* font-size: 3vmin; */
     padding-left: 10%;
     padding-right: 10%;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
 }
 
 #home img{
@@ -202,18 +202,6 @@ section#home{
     padding: 30px;
 }
 
-@media (min-width: 1030px){
-    .hamburger{
-        display: none;
-    }
-    .menu{
-        display: flex;
-    }
-    .card-list{
-    display: flex;
-    flex-direction: row;
-    }
-}
 /* .card-list:first-child{
     display: flex;
     flex-direction: row;
@@ -396,3 +384,27 @@ section#home{
     ;
 }
 
+
+@media (min-width: 1030px){
+    .hamburger{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .card-list{
+    display: flex;
+    flex-direction: row;
+    }
+    .section{
+        scroll-snap-type: y mandatory;
+    }
+    .section{
+        scroll-snap-align: Start;
+    }
+}
+@media (max-width: 1031px){
+    .section{
+        scroll-snap-type: y mandatory;
+    }
+}
